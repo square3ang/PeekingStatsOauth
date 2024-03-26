@@ -1,0 +1,14 @@
+<body>
+       
+</body>
+<script>
+    var param = window.location.search;
+    var p = param.split("code=")[1];
+    document.body.innerHTML = "Code Copied!";
+    navigator.clipboard.writeText(p);
+</script>
+<style>
+body {
+font-size: 24px;
+}
+</style>
